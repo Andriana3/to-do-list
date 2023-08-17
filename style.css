@@ -1,0 +1,68 @@
+html,
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: pink;
+    height: 100%;
+}
+
+.todo-container {
+    background-color: purple;
+    width: 80%;
+    height: 60%;
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-container input {
+    width: calc(100% - 80px);
+    height: 30px;
+    margin-right: 5px;
+
+}
+
+.input-container button {
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: pink;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todo-list {
+    list-style-type: none;
+
+
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.todo-list button {
+    border-radius: 5px;
+    background-color: palevioletred;
+    cursor: pointer;
+    border: palevioletred;
+    color: white;
+}
